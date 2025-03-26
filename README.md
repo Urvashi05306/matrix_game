@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Matrix Click Game - ReactJS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 Overview
+The **Matrix Click Game** is an interactive 3x3 grid-based game built using ReactJS. The game follows a simple yet engaging logic:
 
-## Available Scripts
+- **Clicking on a box** changes its color to green.  
+- **When the last box is clicked**, all previous clicks transition to orange, following their original click sequence.  
+- **A reset button** allows the user to restart the game anytime.  
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Live Demo  
+🔗 **Live Demo:** [Matrix Click Game](https://matrixcolorgame.netlify.app)  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Technology Used  
+The project is built using the following technologies:  
 
-### `npm test`
+- **ReactJS** – Core framework for UI development  
+- **JavaScript (ES6)** – Functional and event-driven logic  
+- **CSS** – Styling and layout  
+- **Netlify** – Hosting and deployment  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🌟 Features  
+### Interactive Gameplay  
+- Clicking a box changes its color to green  
+- Clicking the last box changes all clicked boxes to orange in the order they were clicked  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Dynamic UI  
+- Uses React State (`useState`) to track grid colors and click sequence  
+- Smooth UI transitions for color changes  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Responsive Design  
+- Optimized layout for both desktop and mobile  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Reset Functionality  
+- A Reset button allows users to restart the game anytime  
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
